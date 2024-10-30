@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Home() {
   return (
     <div className='relative h-full lg:h-[140vh]'>
@@ -15,9 +13,14 @@ export default function Home() {
           </p>
         </div>
 
-        <button className='lg:w40 w-24 rounded-full bg-white px-4 py-2 font-bold text-black md:w-32'>
-          Play
-        </button>
+        <div className='flex space-x-3'>
+          <button className='flex cursor-pointer items-center gap-x-2 rounded bg-white px-5 py-1.5 text-sm font-semibold text-black transition hover:opacity-75 md:px-8 md:py-2.5 md:text-xl'>
+            Play
+          </button>
+          <button className='flex cursor-pointer items-center gap-x-2 rounded bg-gray-300 px-5 py-1.5 text-sm font-semibold text-black transition hover:opacity-75 md:px-8 md:py-2.5 md:text-xl'>
+            More Info
+          </button>
+        </div>
       </main>
     </div>
   );
