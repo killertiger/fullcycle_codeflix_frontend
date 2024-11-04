@@ -11,3 +11,4 @@ Reference repository: https://github.com/devfullcycle/FC3-codeflix-frontend
 ## Recommended VsCode Extensions:
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+test
