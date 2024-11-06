@@ -1,3 +1,4 @@
+import BuggyButton from "@/app/components/BuggyButton";
 import { getUserInfo } from "@/app/lib/settings";
 
 async function User() {
@@ -10,6 +11,10 @@ async function User() {
                 <p>Name: {name}</p>
                 <p>Email: {email}</p>
                 <p>Age: {age}</p>
+
+                <div className="mt-4">
+                    <BuggyButton />
+                </div>
             </div>
         </div>
     )
