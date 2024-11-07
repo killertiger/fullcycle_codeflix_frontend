@@ -4,16 +4,22 @@ This project is based on the FullCycle 3.0 - CodeFlix - React (Front-end)
 
 Reference repository: https://github.com/devfullcycle/FC3-codeflix-frontend
 
-## External packages
+## Project Info
+
+### External packages
 - [prettier](https://prettier.io/)
 - [prettier prettier-plugin-tailwindcss](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 - [jest](https://nextjs.org/docs/app/building-your-application/testing/jest)
 - [tailwind-scrollbar-hide](https://github.com/reslear/tailwind-scrollbar-hide)
 - [heroicons](https://github.com/tailwindlabs/heroicons)
 
-## Recommended VsCode Extensions:
+### Recommended VsCode Extensions:
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+### Tips for external tools
+
+- [jsonplaceholder](https://jsonplaceholder.typicode.com/) - Free fake and reliable API for testing and prototyping.
 
 ## Setup project
 

@@ -24,3 +24,18 @@ export const getUserInfo = (): Promise<{
         }, 1000);
     });
 }
+
+
+type User = {
+    id: string,
+    name: string,
+    username: string,
+    email: string,
+    website: string
+};
+
+export async function getUserById(id: string): Promise<User> {
+    const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
+    const user = await response.json();
+    return user;
+}
