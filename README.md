@@ -13,6 +13,7 @@ Reference repository: https://github.com/devfullcycle/FC3-codeflix-frontend
 - [tailwind-scrollbar-hide](https://github.com/reslear/tailwind-scrollbar-hide)
 - [heroicons](https://github.com/tailwindlabs/heroicons)
 - [Zod](https://zod.dev/) - TypeScript-first schema validation with static type inference
+- [json-server](https://github.com/typicode/json-server/tree/v0)
 
 ### Recommended VsCode Extensions:
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
@@ -21,6 +22,7 @@ Reference repository: https://github.com/devfullcycle/FC3-codeflix-frontend
 ### Tips for external tools
 
 - [jsonplaceholder](https://jsonplaceholder.typicode.com/) - Free fake and reliable API for testing and prototyping.
+- [jsoncrack](https://jsoncrack.com/) - Tool for visualizing JSON data in a structured, interactive graphs, making it easier to explore, format, and validate JSON.
 
 ## Setup project
 
@@ -31,7 +33,17 @@ git clone https://github.com/killertiger/fullcycle_codeflix_frontend.git
 Copy the following file: https://raw.githubusercontent.com/devfullcycle/FC3-codeflix-frontend/refs/heads/master/public/banner.png
 and save it in the ./public/banner.png
 
+install json-server
+```bash
+npm install -g json-server@0.17.4
+```
+
 # Running
+
+starting json-server:
+```bash
+json-server --watch db.json -p 3333
+```
 
 development:
 ```bash

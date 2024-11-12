@@ -36,7 +36,7 @@ export default function LoginForm() {
 
         } catch (error) {
             console.log(error);
-            setErrors(['An unknown error occured.'])
+            setErrors(['An unknown error occurred.'])
         }
     }
 
