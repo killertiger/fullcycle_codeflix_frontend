@@ -1,4 +1,4 @@
-import { getUserById } from "@/app/lib/settings";
+import { getUserById } from "@/app/settings/settings";
 import { notFound } from "next/navigation";
 
 

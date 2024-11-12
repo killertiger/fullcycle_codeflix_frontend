@@ -12,6 +12,7 @@ Reference repository: https://github.com/devfullcycle/FC3-codeflix-frontend
 - [jest](https://nextjs.org/docs/app/building-your-application/testing/jest)
 - [tailwind-scrollbar-hide](https://github.com/reslear/tailwind-scrollbar-hide)
 - [heroicons](https://github.com/tailwindlabs/heroicons)
+- [Zod](https://zod.dev/) - TypeScript-first schema validation with static type inference
 
 ### Recommended VsCode Extensions:
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)

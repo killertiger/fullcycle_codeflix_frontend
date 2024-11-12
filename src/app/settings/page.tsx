@@ -1,4 +1,4 @@
-import { getAppSettings } from "../lib/settings";
+import { getAppSettings } from "./settings";
 
 async function Settings() {
     const {
