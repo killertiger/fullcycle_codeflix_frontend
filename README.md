@@ -23,6 +23,7 @@ Reference repository: https://github.com/devfullcycle/FC3-codeflix-frontend
 
 - [jsonplaceholder](https://jsonplaceholder.typicode.com/) - Free fake and reliable API for testing and prototyping.
 - [jsoncrack](https://jsoncrack.com/) - Tool for visualizing JSON data in a structured, interactive graphs, making it easier to explore, format, and validate JSON.
+- [quicktype](https://quicktype.io/) - Convert JSON into gorgeous, typesafe code in any language.
 
 ## Setup project
 
