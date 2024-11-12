@@ -28,12 +28,12 @@ export const AuthForm: React.FC<AuthFormProps> = ({ formType, onSubmit }) => {
                     id="email"
                     label="Email"
                     type="email"
-                    placeholder={"Enter your email"} />
+                    placeholder="Enter your email" />
                 <InputField
                     id="password"
                     label="Password"
                     type="password"
-                    placeholder={"Enter your password"} />
+                    placeholder="Enter your password" />
                 {formType === "register" && (
                     <InputField
                         id="confirmPassword"
