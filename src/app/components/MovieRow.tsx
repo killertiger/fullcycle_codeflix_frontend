@@ -32,7 +32,7 @@ export function MovieRow({ sectionTitle, movies }: MovieRowProps) {
         </h2>
       </div>
       <div className='-ml-8 flex space-x-4 overflow-x-scroll p-6 scrollbar-hide'>
-        {movies.map((movie, index) => (
+        {movies.map((movie) => (
           <h1 key={movie.id}>{movie.title}</h1>
           // <MovieCard key={movie.id} index={index}/>
         ))}
