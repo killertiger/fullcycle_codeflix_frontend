@@ -1,27 +1,12 @@
-import Image from "next/image";
 import { Movies } from "../types/movie";
+import { MovieCard } from "./MovieCard";
+
 
 type MovieRowProps = {
   sectionTitle: string;
   movies: Movies;
 };
 
-type MovieCardProps = {
-  index: number;
-};
-
-const MovieCard = ({ index }: MovieCardProps) => (
-  <div className='group h-28 min-w-[200px] cursor-pointer rounded relative transform transition duration-200 ease-in hover:z-50 hover:scale-110 bg-gradient-to-t from-transparent to-black
-  md:h-40 md:min-w-[300px] lg:h-52 lg:min-w-[400px]
-  '>
-    <Image
-      key={index}
-      src={`/item_${index}.png`}
-      fill={true}
-      alt='MAID'
-      className='rounded' />
-  </div>
-)
 
 export function MovieRow({ sectionTitle, movies }: MovieRowProps) {
   return (
@@ -31,17 +16,10 @@ export function MovieRow({ sectionTitle, movies }: MovieRowProps) {
           {sectionTitle}
         </h2>
       </div>
-      <div className='-ml-8 flex space-x-4 overflow-x-scroll p-6 scrollbar-hide'>
+      <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-8'>
         {movies.map((movie) => (
-          <h1 key={movie.id}>{movie.title}</h1>
-          // <MovieCard key={movie.id} index={index}/>
+          <MovieCard key={movie.id} movie={movie} />
         ))}
-        {/* <Image
-              key={index}
-              src={`/item_${index}.png`}
-              fill={true}
-              alt='MAID'
-              className='rounded' /> */}
       </div>
     </div>
   );
