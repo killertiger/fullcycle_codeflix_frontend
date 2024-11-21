@@ -1,4 +1,4 @@
-const borderColor = (rating: string) => {
+const textColor = (rating: string) => {
     switch (rating) {
         case 'pg':
             return 'text-green-500';
@@ -15,7 +15,7 @@ const borderColor = (rating: string) => {
 
 export const MovieRating = ({ rating }: { rating: string }) => {
     return (
-        <span className={`text-xsm border-1 border px-2 uppercase ${borderColor(rating)}`}>
+        <span className={`text-xsm border-1 border px-2 uppercase ${textColor(rating)}`}>
             {rating}
         </span>
     );
