@@ -2,18 +2,19 @@ import React from "react";
 import { searchMovies } from "../service/MovieService";
 import Header from "../components/Header";
 import { MovieCard } from "../components/MovieCard";
+import { PageProps } from "../../../.next/types/app/page";
 
 interface ISearchParams {
     title?: string;
     genre?: string;
 }
 
-interface ISearchProps {
-    searchParams: ISearchParams;
+interface ISearchProps extends PageProps {
+    searchParams: Promise<ISearchParams>;
 }
 
 export default async function SearchResults({ searchParams }: ISearchProps) {
-    const { title, genre } = searchParams;
+    const { title, genre } = await searchParams;
 
     const movies = await searchMovies(title, genre);
 
