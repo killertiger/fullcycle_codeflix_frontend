@@ -39,6 +39,14 @@ export default function LoginForm() {
         }
     }
 
+    if (errors) {
+        return (
+            <div>
+                {errors.join(', ')}
+            </div>
+        )
+    }
+
     return (
         <AuthForm
             formType="login" onSubmit={handleSubmit} />
