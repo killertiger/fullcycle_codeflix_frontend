@@ -14,6 +14,7 @@ Reference repository: https://github.com/devfullcycle/FC3-codeflix-frontend
 - [heroicons](https://github.com/tailwindlabs/heroicons)
 - [Zod](https://zod.dev/) - TypeScript-first schema validation with static type inference
 - [json-server](https://github.com/typicode/json-server/tree/v0)
+- [vidstack](https://vidstack.io/) - Build your player.
 
 
 ### Recommended VsCode Extensions:

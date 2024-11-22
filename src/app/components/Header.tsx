@@ -6,6 +6,7 @@ import { NavLinks } from './NavLinks';
 import { useScroll } from '../hooks/useScroll';
 import { SearchForm } from './SearchForm';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 
 
 export default function Header() {
@@ -34,7 +35,9 @@ export default function Header() {
         flex w-full items-center justify-between bg-gradient-to-t from-transparent to-black p-2 px-4 transition-all lg:px-16 lg:py-4`}
     >
       <div className='flex items-center space-x-2 md:space-x-8'>
-        <Logo />
+        <Link href='/'>
+          <Logo />
+        </Link>
         <NavLinks />
       </div>
       <div className='flex items-center space-x-2 md:space-x-8'>
